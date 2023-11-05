@@ -12,6 +12,7 @@ struct ContentView: View {
         VStack {
             Text("Word Test")
                 .font(.largeTitle)
+                .foregroundColor(.blue)
         }
         .padding()
     }
