@@ -9,12 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Word Test")
-                .font(.largeTitle)
-                .foregroundColor(.blue)
+        NavigationView{
+            VStack {
+                Text("Word Test")
+                    .font(.largeTitle)
+                    .frame(width:200)
+                    .foregroundColor(.yellow)
+                    .background(Color.black)
+                    .cornerRadius(10)
+                
+                NavigationLink(destination: ChoiceView()) {
+                    Text("Start?")
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
