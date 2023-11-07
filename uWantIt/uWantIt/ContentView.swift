@@ -7,20 +7,40 @@
 
 import SwiftUI
 
+struct NavView: View {
+    var body: some View{
+        VStack{
+            ForEach (1 ..< 6, id:\.self) { num in
+                Spacer()
+                Text("Day \(num)")
+                    .font(.title)
+                    .frame(width:380, height: 100)
+                    .background(.beige)
+                    .cornerRadius(10)
+            }
+        }
+    }
+}
+
 struct ContentView: View {
+    
     var body: some View {
+        
+        
         NavigationView{
             VStack {
                 Text("Word Test")
                     .font(.largeTitle)
-                    .frame(width:200)
-                    .foregroundColor(.yellow)
-                    .background(Color.black)
-                    .cornerRadius(10)
+                    .frame(width:380, height: 100)
+                    .foregroundColor(.indigo)
+                    .bold()
                 
-                NavigationLink(destination: ChoiceView()) {
-                    Text("Start?")
+                Spacer()
+                NavigationLink(destination: QnAView()) {
+                    NavView()
                 }
+                .padding()
+                Spacer()
             }
             .padding()
         }
