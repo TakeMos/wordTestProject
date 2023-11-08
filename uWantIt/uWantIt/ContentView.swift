@@ -16,6 +16,7 @@ struct NavView: View {
                     .font(.title)
                     .frame(width:380, height: 100)
                     .background(.beige)
+                    .foregroundColor(.navy)
                     .cornerRadius(10)
             }
         }
@@ -26,7 +27,6 @@ struct ContentView: View {
     
     var body: some View {
         
-        
         NavigationView{
             VStack {
                 Text("Word Test")
@@ -36,6 +36,7 @@ struct ContentView: View {
                     .bold()
                 
                 Spacer()
+                //Divider()
                 NavigationLink(destination: QnAView()) {
                     NavView()
                 }

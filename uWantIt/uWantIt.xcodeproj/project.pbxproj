@@ -11,7 +11,6 @@
 		760E5CEA2AF63277008A0047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760E5CE92AF63277008A0047 /* ContentView.swift */; };
 		760E5CEC2AF63278008A0047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760E5CEB2AF63278008A0047 /* Assets.xcassets */; };
 		760E5CEF2AF63278008A0047 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 760E5CEE2AF63278008A0047 /* Preview Assets.xcassets */; };
-		760E5CF72AF7385D008A0047 /* ChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760E5CF62AF7385D008A0047 /* ChoiceView.swift */; };
 		760E5CF92AF73897008A0047 /* QnAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760E5CF82AF73897008A0047 /* QnAView.swift */; };
 		760E5CFB2AF738A8008A0047 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760E5CFA2AF738A8008A0047 /* ScoreView.swift */; };
 		760E5CFD2AF814E4008A0047 /* word.json in Resources */ = {isa = PBXBuildFile; fileRef = 760E5CFC2AF814E4008A0047 /* word.json */; };
@@ -23,7 +22,6 @@
 		760E5CE92AF63277008A0047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		760E5CEB2AF63278008A0047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		760E5CEE2AF63278008A0047 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		760E5CF62AF7385D008A0047 /* ChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceView.swift; sourceTree = "<group>"; };
 		760E5CF82AF73897008A0047 /* QnAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnAView.swift; sourceTree = "<group>"; };
 		760E5CFA2AF738A8008A0047 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		760E5CFC2AF814E4008A0047 /* word.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = word.json; path = ../../../word.json; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 			children = (
 				760E5CE72AF63277008A0047 /* uWantItApp.swift */,
 				760E5CE92AF63277008A0047 /* ContentView.swift */,
-				760E5CF62AF7385D008A0047 /* ChoiceView.swift */,
 				760E5CF82AF73897008A0047 /* QnAView.swift */,
 				760E5CFA2AF738A8008A0047 /* ScoreView.swift */,
 				760E5CFC2AF814E4008A0047 /* word.json */,
@@ -151,7 +148,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				760E5CEA2AF63277008A0047 /* ContentView.swift in Sources */,
-				760E5CF72AF7385D008A0047 /* ChoiceView.swift in Sources */,
 				760E5CE82AF63277008A0047 /* uWantItApp.swift in Sources */,
 				760E5CF92AF73897008A0047 /* QnAView.swift in Sources */,
 				760E5CFB2AF738A8008A0047 /* ScoreView.swift in Sources */,
